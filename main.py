@@ -1,11 +1,12 @@
 import asyncio
-import os
 import discord
 from discord_slash import SlashCommand # Importing the newly installed library.
 from discord.ext import commands
 import random
 from tablice import *
 from config import *
+
+#komentarz kurwa
 
 bot = commands.Bot(command_prefix="!")
 slash = SlashCommand(bot, sync_commands=True) # Declares slash commands through the client.
